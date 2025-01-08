@@ -8,27 +8,64 @@ import {HiBuildingOffice2} from "react-icons/hi2";
 import {GrProjects} from "react-icons/gr";
 import {BiCommand} from "react-icons/bi";
 
+
 const Header = () => (
         <nav id="navbar" className="Navbar navbar nav-menu">
             <ul>
-                <li><a href="#hero" className="nav-link scrollto active">
-                    <span id="Icon-Home"><FaHome style={{width: "3rem"}}/></span><span >Home</span></a></li>
-                <li><a href="#about" className="nav-link scrollto"><span ><IoMdInformationCircle style={{width: "3rem"}}/></span><span >About</span></a>
+                <li>
+                    <a href="#home" className="nav-link scrollto active">
+                        <span id="Icon-Home"><FaHome style={{width: "3rem"}}/></span>
+                        <span>Home</span>
+                    </a>
                 </li>
-                <li><a href="#skills" className="nav-link scrollto"><span ><FaGears style={{width: "3rem"}} /></span><span > Skills</span></a>
+                <li>
+                    <a href="#about" className="nav-link scrollto">
+                        <span><IoMdInformationCircle style={{width: "3rem"}}/></span>
+                        <span>About</span>
+                    </a>
                 </li>
-                <li><a href="#resume" className="nav-link scrollto">
-                    <span ><IoSchoolSharp style={{width: "3rem"}}/></span><span >Education</span></a></li>
-                <li><a href="#exp" className="nav-link scrollto">
-                    <span ><HiBuildingOffice2 style={{width: "3rem"}}/></span><span >Experience</span></a></li>
-                <li><a href="#portfolio" className="nav-link scrollto">
-                    <span ><GrProjects style={{width: "3rem"}}/></span><span >Projects</span></a></li>
-                <li><a href="#extra" className="nav-link scrollto"><span ><BiCommand style={{width: "3rem"}}/></span><span >Hobbies</span></a>
+                <li>
+                    <a href="#skills" className="nav-link scrollto">
+                        <span><FaGears style={{width: "3rem"}}/></span>
+                        <span> Skills</span>
+                    </a>
                 </li>
-                <li><a href="#pp" className="nav-link scrollto"><span ><FaBook style={{width: "3rem"}}/></span><span >Paper Publication</span></a>
+                <li>
+                    <a href="#exp" className="nav-link scrollto">
+                        <span><HiBuildingOffice2 style={{width: "3rem"}}/></span>
+                        <span>Experience</span>
+                    </a>
                 </li>
-                <li><a href="#contact" className="nav-link scrollto"><span ><FaPhone style={{width: "3rem"}}/></span>
-                    <span >Contact</span></a></li>
+                <li>
+                    <a href="#portfolio" className="nav-link scrollto">
+                        <span><GrProjects style={{width: "3rem"}}/></span>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resume" className="nav-link scrollto">
+                        <span><IoSchoolSharp style={{width: "3rem"}}/></span>
+                        <span>Education</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#publication" className="nav-link scrollto">
+                        <span><FaBook style={{width: "3rem"}}/></span>
+                        <span>PPublication</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#extra" className="nav-link scrollto">
+                        <span><BiCommand style={{width: "3rem"}}/></span>
+                        <span>Hobbies</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" className="nav-link scrollto">
+                        <span><FaPhone style={{width: "3rem"}}/></span>
+                        <span>Contact</span>
+                    </a>
+                </li>
             </ul>
         </nav>
 )

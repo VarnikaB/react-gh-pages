@@ -1,0 +1,14 @@
+fileignoreconfig:
+- filename: static/js/main.8ed17e14.js
+  checksum: 47868e14fe485d3e7196da9833b490cd9f59287870c84800e7fdff2aa5fd07f6
+- filename: static/js/main.8ed17e14.js.map
+  checksum: 343c5be5d43d1ea520c3b42b69ab3a6fb3038daca85c67e158d4eeb714f1af66
+- filename: static/css/main.f855e6bc.css
+  checksum: f2007e8519b9ce8c98da5a76901d17817f36fd26db3624a40bd49ffd51a0b35b
+- filename: static/css/main.f855e6bc.css.map
+  checksum: 76d0cf86f5d3e564fe8a281ec43d152d254a650c72b1affc3fa52b18b60e4c82
+- filename: static/js/453.f39ec6d9.chunk.js
+  checksum: 32634881cb2b0423ac10d2d38a6f2b1e379c04c7daf6e66bf1fdd18e6445247b
+- filename: static/js/453.f39ec6d9.chunk.js.map
+  checksum: c6e7eb60d004e26aebf84d413f00ffdd00ac7f21152650d6fe90070bfc237349
+version: ""

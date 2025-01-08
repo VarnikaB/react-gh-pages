@@ -1,6 +1,7 @@
 .App {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  color: white;
 }
 
 .App-logo {
