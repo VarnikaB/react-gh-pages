@@ -13,7 +13,7 @@ const Header = () => (
         <nav id="navbar" className="Navbar navbar nav-menu">
             <ul>
                 <li>
-                    <a href="#home" className="nav-link scrollto active">
+                    <a href="#home" className="nav-link scrollto active" >
                         <span id="Icon-Home"><FaHome style={{width: "3rem"}}/></span>
                         <span>Home</span>
                     </a>
@@ -37,13 +37,13 @@ const Header = () => (
                     </a>
                 </li>
                 <li>
-                    <a href="#portfolio" className="nav-link scrollto">
+                    <a href="#projects" className="nav-link scrollto">
                         <span><GrProjects style={{width: "3rem"}}/></span>
                         <span>Projects</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#resume" className="nav-link scrollto">
+                    <a href="#education" className="nav-link scrollto">
                         <span><IoSchoolSharp style={{width: "3rem"}}/></span>
                         <span>Education</span>
                     </a>
@@ -51,11 +51,11 @@ const Header = () => (
                 <li>
                     <a href="#publication" className="nav-link scrollto">
                         <span><FaBook style={{width: "3rem"}}/></span>
-                        <span>PPublication</span>
+                        <span>Publication</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#extra" className="nav-link scrollto">
+                    <a href="#hobbies" className="nav-link scrollto">
                         <span><BiCommand style={{width: "3rem"}}/></span>
                         <span>Hobbies</span>
                     </a>

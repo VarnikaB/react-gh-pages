@@ -12,38 +12,39 @@ import Publication from "./components/Publication/Publication";
 import Hobbies from "./components/Hobbies/Hobbies";
 import Contact from "./components/Contact/Contact";
 
-const App = () => (
-    <div className="App">
+const App = () => {
+    return (<div className="App">
         <div style={{flex: 1}}>
             <Header />
         </div>
         <div style={{flex: 5}}>
-            <Home />
+            <Home/>
             <About/>
             <Skills/>
             <Experience/>
             <Projects/>
             <Education/>
-            <Publication />
-            <Hobbies />
-            <Contact />
-          <div>
-              <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.tsx</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </header></div>
+            <Publication/>
+            <Hobbies/>
+            <Contact/>
+            <div>
+                <header className="App-header">
+                    <img src={logo} className="App-logo" alt="logo"/>
+                    <p>
+                        Edit <code>src/App.tsx</code> and save to reload.
+                    </p>
+                    <a
+                        className="App-link"
+                        href="https://reactjs.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Learn React
+                    </a>
+                </header>
+            </div>
         </div>
-    </div>
-  )
+    </div>)
+}
 
 export default App;

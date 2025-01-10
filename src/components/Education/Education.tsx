@@ -2,8 +2,8 @@ import React from "react";
 import './Education.css';
 
 const Education = () => (
-    <div className="Education">
-        <h1>Varnika Bagaria</h1>
+    <div className="Education" id="education">
+        <h1>Education</h1>
         <p>I'm <strong>Varnika Bagaria</strong>
         </p>
         <div className="social-links">

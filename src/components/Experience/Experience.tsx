@@ -2,8 +2,8 @@ import React from "react";
 import './Experience.css';
 
 const Experience = () => (
-    <div className="Experience">
-        <h1>Varnika Bagaria</h1>
+    <div className="Experience" id="exp">
+        <h1>Experience</h1>
         <p>I'm <strong>Varnika Bagaria</strong>
         </p>
         <div className="social-links">

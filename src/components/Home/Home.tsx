@@ -2,7 +2,7 @@ import React from "react";
 import './Home.css';
 
 const Home = () => (
-    <div className="Home">
+    <div className="Home" id="home">
             <h1>Varnika Bagaria</h1>
             <p>I'm <strong>Varnika Bagaria</strong>
             </p>

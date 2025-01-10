@@ -2,8 +2,8 @@ import React from "react";
 import './Publication.css';
 
 const Publication = () => (
-    <div className="Publication">
-        <h1>Varnika Bagaria</h1>
+    <div className="Publication" id="publication">
+        <h1>Publications</h1>
         <p>I'm <strong>Varnika Bagaria</strong>
         </p>
         <div className="social-links">

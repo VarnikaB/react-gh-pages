@@ -2,8 +2,8 @@ import React from "react";
 import './Projects.css';
 
 const Projects = () => (
-    <div className="Projects">
-        <h1>Varnika Bagaria</h1>
+    <div className="Projects" id="projects">
+        <h1>Projects</h1>
         <p>I'm <strong>Varnika Bagaria</strong>
         </p>
         <div className="social-links">
