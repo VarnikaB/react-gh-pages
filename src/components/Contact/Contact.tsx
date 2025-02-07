@@ -11,10 +11,10 @@ const Contact = () => (
         <p>I'm <strong>Varnika Bagaria</strong>
         </p>
         <div className="social-links">
-            <a href="https://www.github.com/VarnikaB" className="facebook"><FaGithub/></a>
-            <a href="https://wa.me/916363506566" className="instagram"><FaWhatsapp/></a>
+            <a target="_blank" href="https://www.github.com/VarnikaB" className="facebook"><FaGithub/></a>
+            <a href="https://wa.me/916363506566" className="whatsapp"><FaWhatsapp/></a>
             <a href="mailto:varnikabagaria0110@gmail.com" className="google-plus"><FiMail/></a>
-            <a href="https://www.linkedin.com/in/varnika-bagaria" className="linkedin"><FaLinkedin/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/varnika-bagaria" className="linkedin"><FaLinkedin/></a>
         </div>
     </div>
 )

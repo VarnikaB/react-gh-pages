@@ -1,19 +1,24 @@
 import React from "react";
 import './Hobbies.css';
+import musicImage from './images/music.png';
+import badmintonImage from './images/badminton.png';
+import codingImage from './images/coding.png';
+import sketchingImage from './images/img.png';
 
 const Hobbies = () => (
     <div className="Hobbies" id="hobbies">
         <h1>Hobbies</h1>
-        <p>I'm <strong>Varnika Bagaria</strong>
-        </p>
-        <div className="social-links">
-            <a href="https://www.github.com/VarnikaB" className="facebook"><i className="bx bxl-github"></i></a>
-            <a href="https://wa.me/916363506566" className="instagram"><i className="bx bxl-whatsapp"></i></a>
-            <a href="mailto:varnikabagaria0110@gmail.com" className="google-plus"><i
-                className="bx bx-mail-send"></i></a>
-            <a href="https://www.linkedin.com/in/varnika-bagaria" className="linkedin"><i
-                className="bx bxl-linkedin"></i></a>
+        <div className="rows">
+            <div className="row">
+                <img src={musicImage} alt="Music"/>
+                <img src={sketchingImage} alt="Sketching"/>
+            </div>
+            <div className="row">
+                <img src={badmintonImage} alt="Badminton"/>
+                <img src={codingImage} alt="Coding"/>
+            </div>
         </div>
+
     </div>
 )
 
